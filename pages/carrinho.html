@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<htmt>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Loja RaLuli</title>
+        <link href="../css/style.css" rel="stylesheet">
+   </head>
+   <body>
+        <header>
+            <h1>LOJA RALULI</h1>
+                <P>Compre com qualidade</P>
+            <nav>
+                <a href="../pages/inicio.html"> inicio</a>
+                <a href="../pages/produtos.html"> produtos</a>
+                <a href="../pages/galeria.html"> galeria</a>
+                <a href="../pages/carrinho.html"> carrinho</a>
+                <a href="../pages/cadastro.html"> cadastro</a>
+            </nav>
+        </header>
+        <main>
+
+            <section class="carrinho">
+                <div class="carrinho">
+                    <h2>Seu Carrinho</h2>
+
+                    <div id="listaCarrinho">
+                        <p class="carrinho-vazio">Seu carrinho está vazio.</p>
+                    </div>
+
+                    <div class="carrinho-total">
+                        Total: R$ <span id="total">0,00</span>
+                    </div>
+
+                    <button class="btn-finalizar" onclick="finalizarCompra()">
+                        Finalizar compra
+                    </button>
+                </div>
+            </section>
